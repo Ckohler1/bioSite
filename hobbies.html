@@ -1,4 +1,3 @@
-<!-- hobbies.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,11 +20,44 @@
     </header>
     
     <main>
-        <h2>Hobby List</h2>
-        <p>Momomi's favorite hobbies will be listed here.</p>
-        <img src="images/travel 1.jpg" alt="Travel Hobby 1">
-        <img src="images/travel 2.jpg" alt="Travel Hobby 2">
-        <img src="images/travel 3.jpg" alt="Travel Hobby 3">
+        <h2> Things Momo Loves </h2>
+
+        <!-- Updated Grid Layout: Hobby List in Center with Images on Either Side -->
+        <div class="hobbies-flex">
+            <div class="image-container">
+                <img src="images/travel 2.jpg" alt="Momo with friends">
+                <p class="image-caption">Momo with friends</p>
+            </div>
+
+            <div class="hobby-list-container">
+                <ul class="hobby-list">
+                    <li>🐱 Spending time with cats</li>
+                    <li>🥾 Hiking in nature</li>
+                    <li>✈️ Traveling to new places</li>
+                    <li>📖 Reading manga & watching anime</li>
+                    <li>🍣 Trying new foods</li>
+                </ul>
+
+                <!-- Furball Farm Cat Sanctuary Mention -->
+                <p class="cat-sanctuary">
+                    Very fitting for someone with a love of cats, Momo also adores visiting  
+                    <a href="https://furballfarmcatsanctuary.com/" target="_blank">Furball Farm Cat Sanctuary</a>,  
+                    a Minnesota-based rescue dedicated to providing a safe haven for feral cats.
+                </p>
+            </div>
+
+            <div class="image-container">
+                <img src="images/travel 3.jpg" alt="Visiting a cat café">
+                <p class="image-caption">Visiting a cat café</p>
+            </div>
+        </div>
+
+        <!-- Travel Image Below -->
+        <div class="image-container-wide">
+            <img src="images/travel 1.jpg" alt="Momo and fiancé at the top of Kumejima Island, Okinawa">
+            <p class="image-caption">Momo and fiancé at the top of Kumejima Island, Okinawa</p>
+        </div>
+
     </main>
     
     <footer>
@@ -33,3 +65,5 @@
     </footer>
 </body>
 </html>
+
+
